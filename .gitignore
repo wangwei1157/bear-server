@@ -1,0 +1,36 @@
+# 忽略所有 .log 文件
+*.log
+ 
+# 忽略所有 .tmp 文件
+*.tmp
+ 
+# 忽略特定文件
+config.js
+ 
+# 忽略整个目录
+node_modules/
+ 
+# 忽略所有的 .env 文件，但跟踪已经被跟踪的 .env 文件
+*.env
+!.env
+ 
+# 忽略所有的 test_coverage 文件夹
+test_coverage/
+ 
+# 忽略所有的 .vscode 文件夹，但跟踪已经被跟踪的 .vscode 文件夹
+.vscode/
+!.vscode/
+ 
+# 忽略所有的 .sass-cache 文件夹
+.sass-cache/
+ 
+# 忽略所有的 package-lock.json 文件
+package-lock.json
+ 
+# 忽略所有的 yarn.lock 文件
+yarn.lock
+
+dist/
+ 
+# 不忽略 .gitignore 文件
+!.gitignore
